@@ -240,18 +240,12 @@ body{
 .typing{ 
   font-size: clamp(16px, 3.2vw, 22px);
   opacity:.96;
-  border-right:2px solid var(--accent);
-  white-space:nowrap;
+  white-space:pre-wrap;
   overflow:hidden;
-  animation: caret 1s steps(1) infinite;
   margin-inline:auto;
   max-width: 90vw;
-}
-
-@keyframes caret{ 
-  50%{ 
-    border-color: transparent;
-  } 
+  line-height: 1.6;
+  text-align: left;
 }
 
 /* Lightbox */
