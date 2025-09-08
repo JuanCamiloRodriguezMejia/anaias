@@ -4,11 +4,18 @@ const START_ISO = '2020-09-08T00:00:00-05:00';
 // ===== FOTOS DEL CARRUSEL =====
 // Edita este arreglo; cada objeto es una foto con su leyenda.
 const photos = [
-  { src: 'img/20220704_140725.jpg', caption: 'Nuestro inicio' },
-  { src: 'img/20220704_140729.jpg', caption: 'Risas infinitas' },
-  { src: 'img/20220704_140734.jpg', caption: 'Aventuras juntos' },
-  { src: 'img/foto4.jpg', caption: 'Atardecer favorito' },
-  { src: 'img/foto5.jpg', caption: 'Momentos únicos' },
+  { src: 'img/primera-cita.jpg', caption: 'Tuvimos nuestra primera cita 👩‍❤️‍💋‍👨' },
+  { src: 'img/viaje1.jpg', caption: 'Tuvimos nuestro primer viaje corto juntos 🏔️' },
+  { src: 'img/meme1.jpg', caption: 'Nos tomamos fotos chistosas 🤡' },
+  { src: 'img/cumple1.jpg', caption: 'Celebramos muchos cumpleaños juntos 💃🕺' },
+  { src: 'img/meses.jpg', caption: 'Celebramos MUCHOS meses de relación 💖' },
+  { src: 'img/meme2.jpg', caption: 'Nos tomamos más fotos chistosas 😅' },
+  { src: 'img/grado.jpg', caption: '¡Nos graduamos juntos! 👩‍🎓👨‍🎓' },
+  { src: 'img/viaje2.jpg', caption: 'Fuimos juntos a la playa 🌊' },
+  { src: 'img/comida.jpg', caption: 'Comimos delicioso muchas veces 🤤' },
+  { src: 'img/meme3.jpg', caption: 'Nos seguimos tomando fotos chistosas 😝' },
+  { src: 'img/amor.JPG', caption: 'Pero sobre todo, nos amamos mucho 💕' },
+  { src: 'img/final.jpg', caption: 'Y así seguirá siendo hasta el final 🥰' },
 ];
 
 // ===== CONTADOR =====

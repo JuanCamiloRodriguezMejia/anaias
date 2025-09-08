@@ -3,8 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Para Ti ✨</title>
+  <title>Andrea y yo ✨</title>
   <meta name="description" content="Scrolleo con contador, carrusel animado y mensaje." />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.svg">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon.svg">
+  <link rel="apple-touch-icon" href="favicon.svg">
 
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
@@ -23,16 +29,20 @@
         <div class="unit"><div class="num" id="minutes">00</div><div class="label">Minutos</div></div>
         <div class="unit"><div class="num" id="seconds">00</div><div class="label">Segundos</div></div>
       </div>
-      <p class="sub">Que tomé la mejor decisión de mi vida.</p>
-      <p class="muted" style="margin-top:14px">Y es que fue el <span id="start-date">—</span> que todo esto empezóx</p>
+      <p class="sub">Que nuestra hitoria empezó</p>
+      <p class="muted" style="margin-top:14px">El <span id="start-date">—</span> es la fecha en la que
+        celebramos todas las casualidades que tuvieron que ocurrir para que en algún momento nos 
+        encontráramos de la manera en la que lo hicimos.
+      </p>
       <div class="scroll-hint">Desliza para ver el álbum ↓</div>
     </div>
   </section>
 
   <!-- ===== Sección 2: Álbum (Carousel) ===== -->
   <div class="section-header">
-    <h2 style="margin-top:0; margin-bottom:18px;">Algunas de nuestras memorias 📸</h2>
-    <p class="muted" style="margin-top:0; margin-bottom:28px;">Durante estos <span id="years2">00</span> años.</p>  
+    <h2 style="margin-top:0; margin-bottom:18px;">Hoy es un buen día para recordar 😎</h2>
+    <p class="muted" style="margin-top:0; margin-bottom:28px;">Que durante estos <span id="years2">00</span>
+       años hemos podido vivir muchas cosas juntos que se han quedado en nuestras memorias:</p>  
   </div>
   <section class="section album">
     <div class="container">
@@ -47,7 +57,7 @@
   <!-- ===== Sección 3: Texto animado ===== -->
   <section class="section">
     <div class="container message">
-      <h2>Lo que siento por ti…</h2>
+      <h2>FRASE</h2>
       <p id="typing" class="typing" aria-label="Mensaje animado"></p>
     </div>
   </section>

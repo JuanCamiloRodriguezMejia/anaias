@@ -80,10 +80,10 @@ body{
   background: rgba(255,255,255,.06);
   border:1px solid rgba(255,255,255,.08);
   backdrop-filter: blur(6px);
-       border-radius: 16px;
-       padding:12px 14px;
-       min-width:120px;
-       box-shadow: var(--shadow);
+  border-radius: 16px;
+  padding:12px 14px;
+  min-width:120px;
+  box-shadow: var(--shadow);
 }
 
 .num{ 
